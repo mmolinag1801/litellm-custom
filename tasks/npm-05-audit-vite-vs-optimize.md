@@ -1,0 +1,1 @@
+Comprueba si las dependencias de Vite en el entorno local tienen alertas de seguridad. Si el resultado es favorable, ejecuta de nuevo npm run build.

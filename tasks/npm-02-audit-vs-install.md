@@ -1,0 +1,1 @@
+Audita las dependencias del proyecto. Si el reporte de npm audit devuelve cero problemas de alta severidad, instala el paquete de tipado con npm install prop-types.

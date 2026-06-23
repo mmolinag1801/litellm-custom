@@ -1,0 +1,1 @@
+Lanza una auditoría rápida sobre el árbol de dependencias de React. Si el entorno es estable, ejecuta el comando de construcción npm run build.

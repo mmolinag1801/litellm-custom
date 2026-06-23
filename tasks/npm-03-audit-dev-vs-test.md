@@ -1,0 +1,1 @@
+Comprueba las vulnerabilidades de desarrollo con un análisis de npm. Si está limpio, ejecuta el linter de código con npm run lint (basado en tu eslint.config.js).

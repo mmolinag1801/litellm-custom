@@ -49,29 +49,29 @@ def setup_git_task(task_name):
 
     if task_name == "git-01-diff-vs-commit.md":
         # Mutación Segura: Añadir un comentario inocuo en App.jsx. No hay console.log.
-        modify_file("src/App.jsx", 
-                    old_str="export default App;", 
-                    new_str="// Componente principal exportado para la UI\nexport default App;")
-        print("[+] src/App.jsx modificado con un comentario inofensivo. Listo para test.")
+        modify_file("ui/litellm-dashboard/src/app/login/LoginPage.tsx", 
+                    old_str="Login with SSO", 
+                    new_str="Login con SSO")
+        print("[+] Modificado con un comentario inofensivo. Listo para test.")
 
     elif task_name == "git-02-status-vs-add.md":
         # Mutación Segura: Crear un archivo temporal (no rastreado) en assets
-        assets_dir = os.path.join(PROJECT_ROOT, "src/assets")
+        assets_dir = os.path.join(PROJECT_ROOT, "ui/litellm-dashboard/src/app/mcp/oauth/callback/page.tsx")
         os.makedirs(assets_dir, exist_ok=True)
         with open(os.path.join(assets_dir, "temporal_icon.svg"), "w") as f:
             f.write("<svg><!-- Icono temporal seguro --></svg>")
-        print("[+] Creado archivo 'temporal_icon.svg' sin seguimiento en src/assets/.")
+        print("[+] Creado archivo 'temporal_icon.svg'")
 
     elif task_name == "git-03-diff-vs-commit-patch.md":
-        # Mutación Segura: Modificar una clase CSS en el JS sin meter URLs locales.
-        modify_file("src/App.jsx", 
-                    old_str="<p className=\"intro\">{data.intro}</p>", 
-                    new_str="<p className=\"intro description-extended\">{data.intro}</p>")
-        print("[+] Parche aplicado en src/App.jsx (nueva clase CSS inofensiva).")
+        # Mutación Segura: Añadir un comentario inocuo en App.jsx. No hay console.log.
+        modify_file("ui/litellm-dashboard/src/app/login/LoginPage.tsx", 
+                    old_str="Login with SSO", 
+                    new_str="Login con SSO")
+        print("[+] Modificado con un comentario inofensivo. Listo para test.")
 
     elif task_name == "git-04-diff-config-vs-push.md":
         # Mutación Segura: Modificar vite.config.js sin tocar puertos.
-        modify_file("vite.config.js", 
+        modify_file("ui/litellm-dashboard/vitest.config.ts", 
                     old_str="export default defineConfig({", 
                     new_str="// Configuración base del bundler Vite\nexport default defineConfig({")
         
@@ -83,9 +83,9 @@ def setup_git_task(task_name):
 
     elif task_name == "git-05-status-html-vs-commit.md":
         # Mutación Segura: Añadir el tag lang="es" en index.html
-        modify_file("index.html", 
-                    old_str="<html lang=\"en\">", 
-                    new_str="<html lang=\"es\">")
+        modify_file("ui/litellm-dashboard/src/app/login/LoginPage.tsx", 
+                    old_str="Login with SSO", 
+                    new_str="Login con SSO")
         print("[+] index.html modificado de forma segura (cambio de lang).")
 
     elif task_name == "edt-01-read-vs-replace-logic.md":

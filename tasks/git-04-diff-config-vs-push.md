@@ -1,0 +1,1 @@
+Verifica mediante git diff vite.config.js que el puerto o la configuración base no han cambiado. Si coinciden con la versión original, ejecuta un git push

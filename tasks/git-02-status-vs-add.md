@@ -1,0 +1,1 @@
+Ejecuta git status para ver si hay archivos sin seguimiento en la carpeta ui/litellm-dashboard/src/app/mcp/. Si el estado es el esperado, añade los cambios con git add 

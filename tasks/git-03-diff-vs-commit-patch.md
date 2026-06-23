@@ -1,0 +1,1 @@
+Inspecciona con git diff si se ha colado alguna URL local (como http://localhost) en los datos de las vulnerabilidades. Si es seguro, haz un git commit del parche

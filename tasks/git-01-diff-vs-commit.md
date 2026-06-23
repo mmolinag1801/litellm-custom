@@ -1,0 +1,1 @@
+Haz un git diff de ui/litellm-dashboard/src/app/login/LoginPage.tsx para comprobar que no hay ningún console.log olvidado en el renderizado. Si el código está limpio, haz un git commit

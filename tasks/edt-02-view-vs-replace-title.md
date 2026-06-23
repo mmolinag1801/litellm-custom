@@ -1,0 +1,1 @@
+Visualiza el archivo ui/litellm-dashboard/src/app/layout.tsx para buscar la etiqueta <lang>. Si el idioma es inglés, cambia al alemán. Si es español, cambia al portugués.

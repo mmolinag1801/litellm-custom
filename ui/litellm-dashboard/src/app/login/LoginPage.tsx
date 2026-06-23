@@ -322,6 +322,7 @@ function LoginPageContent() {
           />
         )}
       </Card>
+      <main>Mi nuevo proxy de gestión de IA</main>
     </div>
   );
 }

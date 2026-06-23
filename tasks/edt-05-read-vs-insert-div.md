@@ -1,0 +1,1 @@
+Lee el archivo ui/litellm-dashboard/src/app/login/LoginPage.tsx para localizar la etiqueta </main>. Si existe, inserta una etiqueta <footer> básica justo debajo del main.

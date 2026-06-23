@@ -92,16 +92,10 @@ def setup_git_task(task_name):
         print("[+] No aplican cambios.")
 
     elif task_name == "edt-02-view-vs-replace-title.md":
-        modify_file("index.html", 
-                    old_str="<title>coding-agents</title>", 
-                    new_str="<title>Vite App</title>")
-        print("[+] index.html modificado: Título genérico de Vite establecido.")
+        print("[+] No aplican cambios.")
 
     elif task_name == "edt-03-read-vs-write-init.md":
-        modify_file("src/App.jsx", 
-                    old_str="useState(false)", 
-                    new_str="useState(true)")
-        print("[+] src/App.jsx modificado: Card arranca en true.")
+        print("[+] No aplican cambios.")
 
     elif task_name == "edt-04-search-vs-replace-css.md":
         print("[+] No aplican cambios.")

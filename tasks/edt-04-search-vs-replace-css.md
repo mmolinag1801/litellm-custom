@@ -1,0 +1,1 @@
+Busca en ui/litellm-dashboard/src/app/globals.css la declaración de la clase .custom-border. Si tiene estilos definidos, añade una regla border: 1px solid red; a esa clase usando el reemplazo de cadenas.

@@ -1,1 +1,1 @@
-Comprueba si las dependencias de Vite en el entorno local tienen alertas de seguridad. Si el resultado es favorable, ejecuta de nuevo npm run build.
+Comprueba si las dependencias de Vite en el entorno local tienen alertas de seguridad. Si no hay vulnerabilidades de jest, ejecuta de nuevo npm run build.

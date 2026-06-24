@@ -1,1 +1,1 @@
-Ejecuta npm audit para comprobar el estado de seguridad de los paquetes (ui/litellm-dashboard/package.json). Si no hay vulnerabilidades críticas, lanza la compilación de producción con npm run build.
+Ejecuta npm audit para comprobar el estado de seguridad de los paquetes. Si no hay vulnerabilidades críticas, lanza la compilación de producción con npm run build.
